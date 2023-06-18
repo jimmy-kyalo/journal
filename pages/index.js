@@ -89,10 +89,10 @@ const Home = () => {
   return (
     <div>
       <Head>
-        <title>TodoApp</title>
+        <title>Journal</title>
         <meta
           name="description"
-          content="Awesome todoapp to store your awesome todos"
+          content="Awesome journal to store your awesome ideas"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
