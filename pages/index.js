@@ -107,10 +107,11 @@ const Home = () => {
         />
         <HStack m="10" spacing="4" justify="center">
           <Box>
-            <Tag bg="green.500" borderRadius="3xl" size="sm" mt="1" /> Complete
+            <Tag bg="green.500" borderRadius="3xl" size="sm" mt="1" /> Goals
+            Achieved
           </Box>
           <Box>
-            <Tag bg="yellow.400" borderRadius="3xl" size="sm" mt="1" />{" "}
+            <Tag bg="yellow.400" borderRadius="3xl" size="sm" mt="1" /> Goals
             Incomplete
           </Box>
         </HStack>

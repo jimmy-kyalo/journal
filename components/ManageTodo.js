@@ -85,7 +85,7 @@ const ManageTodo = ({ isOpen, onClose, initialRef, todo, setTodo }) => {
       <ModalOverlay />
       <ModalContent>
         <form onSubmit={submitHandler}>
-          <ModalHeader>{todo ? "Update Todo" : "Add Todo"}</ModalHeader>
+          <ModalHeader>{todo ? "Update Entry" : "Add Entry"}</ModalHeader>
           <ModalCloseButton onClick={closeHandler} />
           <ModalBody pb={6}>
             {errorMessage && (
