@@ -15,7 +15,7 @@ import { useState } from "react";
 import { supabaseClient } from "../lib/client";
 
 const SignIn = () => {
-  const [email, setEmail] = useState("kyalo90@gmail.com");
+  const [email, setEmail] = useState("");
   const [isLoading, setIsLoading] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [error, setError] = useState(null);
