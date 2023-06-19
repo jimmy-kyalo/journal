@@ -7,7 +7,7 @@ import ManageTodo from "../components/ManageTodo";
 import Navbar from "../components/Navbar";
 import SingleTodo from "../components/SingleTodo";
 import { supabaseClient } from "../lib/client";
-
+``;
 const Home = () => {
   const initialRef = useRef();
   const [todos, setTodos] = useState([]);
@@ -87,7 +87,7 @@ const Home = () => {
   };
 
   return (
-    <div>
+    <>
       <Head>
         <title>Journal</title>
         <meta
@@ -131,7 +131,7 @@ const Home = () => {
           ))}
         </SimpleGrid>
       </main>
-    </div>
+    </>
   );
 };
 

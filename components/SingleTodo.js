@@ -51,7 +51,7 @@ const SingleTodo = ({ todo, openHandler, deleteHandler, isDeleteLoading }) => {
       <Text noOfLines={[1, 2, 3]} color="gray.800">
         {todo.description}
       </Text>
-      <Center>
+      {/* <Center>
         <Button
           mt="4"
           size="sm"
@@ -64,7 +64,7 @@ const SingleTodo = ({ todo, openHandler, deleteHandler, isDeleteLoading }) => {
         >
           Delete
         </Button>
-      </Center>
+      </Center> */}
     </Box>
   );
 };
